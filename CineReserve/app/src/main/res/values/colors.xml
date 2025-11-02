@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Primary Brand Colors -->
+    <color name="colorPrimary">#FF8036</color>
+    <color name="colorPrimaryDark">#FF8036</color>
+    <color name="colorAccent">#FFC107</color>          <!-- Amber 500 -->
+
+    <!-- Backgrounds -->
+    <color name="background">#FFFFFF</color>           <!-- White -->
+    <color name="surface">#F8F9FA</color>              <!-- Light gray background -->
+
+    <!-- Text Colors -->
+    <color name="gray">#757575</color>                 <!-- Medium gray for secondary text -->
+
+    <!-- Rating Star -->
+    <color name="yellow">#FFD700</color>               <!-- Golden yellow for stars -->
+
+    <!-- Optional Elevation/Shadow Colors -->
+    <color name="divider">#E0E0E0</color>              <!-- Divider line color -->
+    <color name="shadow">#33000000</color>
+    <color name="dark_blue">#1A2232</color>
+    <color name="grayText">#637394</color>
+
+</resources>

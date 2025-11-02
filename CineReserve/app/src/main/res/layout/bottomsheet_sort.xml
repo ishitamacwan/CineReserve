@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bg_bottomsheet_rounded"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TextView
+    android:fontFamily="@font/pt_root_ui_bold"
+    android:textSize="18sp"
+    android:textColor="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Sort by"/>
+    <RadioGroup
+        android:id="@+id/sortRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rbSortDefault"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pt_root_ui_medium"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:text="Default" />
+
+        <RadioButton
+            android:id="@+id/rbSortByRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pt_root_ui_medium"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:text="Rating" />
+
+        <RadioButton
+            android:id="@+id/rbSortByDate"
+            android:fontFamily="@font/pt_root_ui_medium"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Release Date" />
+
+        <RadioButton
+            android:id="@+id/rbSortByTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pt_root_ui_medium"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:text="Title" />
+    </RadioGroup>
+
+</LinearLayout>

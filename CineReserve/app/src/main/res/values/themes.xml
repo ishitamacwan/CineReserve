@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CineReserve" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+
+    <style name="Theme.CineReserve" parent="Base.Theme.CineReserve">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryContainer">@color/dark_blue</item>
+        <item name="android:windowBackground">@color/dark_blue</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+
+        <!-- White text in app -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+
+        <!-- Status bar icons/text color -->
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Theme.CineReserve.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Fullscreen -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item> <!-- White icons/text -->
+
+        <!-- Background color -->
+        <item name="android:windowBackground">@color/dark_blue</item>
+    </style>
+    <style name="Widget.CineReserve.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/dark_blue</item>
+        <item name="titleTextColor">@android:color/white</item>
+        <item name="subtitleTextColor">@android:color/white</item>
+        <item name="titleTextAppearance">@style/TextAppearance.CineReserve.Toolbar.Title</item>
+    </style>
+
+    <style name="TextAppearance.CineReserve.Toolbar.Title" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:fontFamily">@font/pt_root_ui_medium</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+</resources>
